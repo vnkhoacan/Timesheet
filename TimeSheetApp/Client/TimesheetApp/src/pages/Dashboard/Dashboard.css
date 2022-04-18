@@ -1,0 +1,146 @@
+#dashboard {
+  width: 100vw;
+  height: 100vh;
+}
+
+.dashboard_header-bg {
+  background: #1d2532;
+}
+
+#dashboard .sidebar {
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 0;
+}
+
+#dashboard .side-content {
+  position: fixed;
+  width: 80%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  padding: 0;
+  min-height: 700px;
+}
+
+#dashboard .side-content .side-content_navbar {
+  height: 7%;
+  min-height: 66px;
+}
+
+#dashboard .side-content .side-content_content {
+  height: 93%;
+}
+
+.show_side-content {
+  animation: show_side-content 1s linear forwards;
+}
+
+.hide_side-content {
+  animation: hide_side-content 1s linear forwards;
+}
+
+.hide_sidebar {
+  animation: hide_sidebar 1s linear forwards;
+}
+
+.show_sidebar {
+  animation: show_sidebar 1s forwards;
+}
+
+@keyframes hide_sidebar {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-1000px);
+  }
+}
+
+@keyframes show_sidebar {
+  from {
+    transform: translateX(-1000px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes show_side-content {
+  from {
+    transform: inherit;
+  }
+  to {
+    transform: translateX(0);
+    width: 100%;
+  }
+}
+
+@keyframes hide_side-content {
+  from {
+    transform: translateX(0);
+    width: 100%;
+  }
+  to {
+    transform: inherit;
+    width: 75%;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 300px) {
+  #dashboard .sidebar {
+    width: 90%;
+    z-index: 3;
+    background-color: white;
+    /* transform: translateX(-1000px); */
+  }
+
+  #dashboard .side-content {
+    width: 100%;
+  }
+
+  #dashboard .side-content .side-content_navbar {
+    height: 10% !important;
+  }
+
+  #dashboard .side-content .side-content_content {
+    height: 90% !important;
+  }
+
+  #dashboard .dark-bg {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .show_dark-bg {
+    display: block !important;
+  }
+
+  .hide_side-content {
+    animation: none;
+  }
+
+  .show_side-content {
+    animation: none;
+  }
+
+  .hide_sidebar {
+    animation: show_sidebar 1s linear forwards !important;
+  }
+
+  .show_sidebar {
+    animation: hide_sidebar 1s forwards !important;
+  }
+}

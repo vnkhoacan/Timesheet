@@ -1,0 +1,16 @@
+.sidebar .active .css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root,.sidebar .active .css-e0yuwi
+{
+    background-color: #1976d2 ;
+    color: white;
+}
+
+.sidebar .active .css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root .css-cveggr-MuiListItemIcon-root,.sidebar .active .css-e0yuwi .css-1f8bwsm
+{
+    color: white;
+}
+
+.dashboard_sidebar_main
+{
+    height: 100%;
+    overflow-y: auto;
+}

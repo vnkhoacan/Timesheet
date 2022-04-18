@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Timesheet",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

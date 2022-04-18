@@ -1,0 +1,29 @@
+.add-board {
+  width: 192px;
+  height: 192px;
+  border-radius: 15px;
+  box-shadow: 0.5px 0.5px 3px rgb(195, 193, 193);
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.add-board:hover {
+  box-shadow: 1px 2.5px 15px rgba(200, 199, 199, 0.794);
+}
+
+.add-board .bxs-plus-circle {
+  margin-top: 3rem;
+  font-size: 56px;
+  padding-bottom: 1rem;
+}
+
+.add-board .title-board {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}

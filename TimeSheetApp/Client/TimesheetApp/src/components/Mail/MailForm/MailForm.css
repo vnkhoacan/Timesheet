@@ -1,0 +1,28 @@
+.mail-form {
+  width: 600px;
+  background: white;
+  border-top-left-radius: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.mail-form .mail-form_header {
+  background: #1976d2;
+  padding: 20px 15px;
+  color: white;
+  font-size: 17px;
+}
+
+.mail-form .mail-form_body {
+  padding: 15px;
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  .mail-form {
+    width: 350px;
+  }
+}

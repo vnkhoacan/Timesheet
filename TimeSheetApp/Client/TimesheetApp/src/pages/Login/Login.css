@@ -1,0 +1,29 @@
+.login {
+  width: 100%;
+  height: 100%;
+  background-color: #ecf0f1 !important;
+  display: flex;
+}
+
+.login .login_box {
+  width: 380px;
+  margin: auto;
+}
+
+.login_box_header
+{
+  display: grid;
+}
+
+.login .login_box .logo {
+  width: 40px;
+  height: 40px;
+}
+
+.login .login_box form {
+  width: 100%;
+  padding: 50px 35px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.07);
+}

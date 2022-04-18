@@ -1,0 +1,134 @@
+.card-detail {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  /* box-shadow: 0 0 13px 1px rgba(0, 0, 0, 0.1); */
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 15px 15px 70px 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card-detail .color {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.orange {
+  width: 2.5rem;
+  height: 0.5rem;
+  background-color: rgb(255, 136, 0);
+  border-radius: 20rem;
+  margin-right: 3%;
+}
+
+.red {
+  width: 2.5rem;
+  height: 0.5rem;
+  background-color: rgb(248, 61, 61);
+  border-radius: 20rem;
+  margin-right: 3%;
+}
+
+.blue {
+  width: 2.5rem;
+  height: 0.5rem;
+  background-color: rgb(64, 131, 255);
+  border-radius: 20rem;
+  margin-right: 3%;
+}
+
+.card-detail p {
+  color: #333;
+}
+
+.detail {
+  display: flex;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.detail .due {
+  background-color: rgb(248, 61, 61);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.detail .due .date {
+  color: #fff;
+  font-weight: 300;
+  margin-left: 5%;
+}
+
+.detail .due .bx-time-five {
+  font-size: 1.2rem;
+}
+
+.detail .quest {
+  background-color: rgb(117, 117, 117);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.detail .quest .check-num {
+  color: #fff;
+  font-weight: 300;
+  margin-left: 5%;
+}
+
+.detail .quest .bx-check-circle {
+  font-size: 1.2rem;
+}
+
+.card-detail .card-detail_footer {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+  right: 0;
+  bottom: 0;
+  /* box-shadow: 1px 1px 4px 1px rgba(51, 51, 51, 0.37); */
+  border-top: 1px solid #e0e0e0;
+  z-index: 1000;
+  font-weight: 600;
+  align-items: center;
+  background-color: white;
+  font-weight: 300;
+}
+
+.card-detail_footer i
+{
+    font-size: 18px;
+    /* color: #a4a4a4; */
+    color: rgb(107, 114, 128);
+}
+
+.card-detail_footer .card-detail_footer_number
+{
+    font-size: 13px;
+    color: rgb(107, 114, 128);
+    margin-left: 5px;
+}
+
+.card-detail_footer .left {
+  margin-left: 5%;
+}
+
+.card-detail_footer .right {
+  display: flex;
+  justify-items: end;
+  margin-right: 15%;
+}
+
+.card-detail_footer .right .file {
+  display: flex;
+  align-items: center;
+  margin-right: 40%;
+}
+
+.card-detail_footer .right .comment {
+  display: flex;
+  align-items: center;
+}

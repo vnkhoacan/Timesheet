@@ -1,0 +1,29 @@
+.list-title {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+    width: 350px;
+    padding: 15px;
+}
+
+.list-title .title-input {
+    background-color: rgb(236, 236, 236);
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.list-title .add-title {
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+    color: #b6b6b6;
+}
+
+.list-title .add-title:hover {
+    background-color: #1976d2;
+    color: #333;
+}

@@ -1,0 +1,116 @@
+.statistic {
+  width: 100%;
+  min-height: 100%;
+  background: #f1f5f9;
+  padding: 0;
+  padding-bottom: 100px;
+}
+
+.statistic .mp {
+  padding: 20px !important;
+}
+
+.statistic .header {
+  width: 100%;
+  background: white;
+  padding: 40px 20px;
+}
+
+.statistic .statistic-box {
+  border-radius: 10px;
+  background: white;
+  padding: 10px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.statistic .statistic-box .number-statistic-box {
+  width: 100%;
+  height: 25%;
+  padding: 5px;
+}
+
+.statistic .statistic-box canvas {
+  width: 95% !important;
+}
+
+.statistic .statistic-box .row {
+  margin: 0 !important;
+}
+
+.statistic .statistic-box .col-xl-9,
+.statistic .statistic-box .col-xl-3,
+.statistic .col-xl-6,
+.statistic .col-12 {
+  padding: 0 !important;
+}
+
+.statistic .statistic-box .info {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistic .statistic-box .info h1 {
+  margin-top: 0;
+}
+
+.statistic .statistic-box .number-statistic-box h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.statistic .statistic-box .number-statistic-box span {
+  font-size: 20px;
+}
+
+.statistic .summary .summary-box {
+  width: 100%;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.statistic .summary .summary-box h1,
+.statistic .summary .summary-box h4 {
+  text-align: center;
+}
+
+.statistic .summary .summary-box h5 {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.statistic .summary .summary-box h4 {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.statistic .summary .summary-box h1 {
+  font-weight: bold;
+  font-size: 64px;
+  margin: 0;
+}
+
+@media (max-width: 1000px) and (min-width: 300px) {
+  .statistic .summary {
+    display: block !important;
+  }
+  .statistic .summary .w-25 {
+    width: 100% !important;
+    padding: 20px !important;
+  }
+  .statistic .statistic-box .number-statistic-box .info {
+    padding: 10px 0;
+  }
+  .statistic .statistic-box .number-statistic-box p {
+    font-size: 15px;
+  }
+  .statistic .statistic-box .number-statistic-box h1 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+}

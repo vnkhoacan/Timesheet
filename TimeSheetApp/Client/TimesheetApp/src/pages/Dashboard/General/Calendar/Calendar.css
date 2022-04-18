@@ -1,0 +1,15 @@
+.calendar
+{
+    width: 100%;
+    height: 100%;
+    /* position: relative;
+    overflow: hidden; */
+    /* overflow-x: auto; */
+}
+
+.calendar .calendar_dot
+{
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}

@@ -1,0 +1,27 @@
+.ListMail {
+  width: 365px;
+  background-color: #fff;
+}
+
+.ListMail .menu {
+  margin-right: 20%;
+}
+
+.ListMail .top-ListMail {
+  height: 7%;
+  /* border: 1px solid rgb(221, 234, 250); */
+  padding: 0rem 1rem 0rem 1rem;
+  background-color: rgba(248, 250, 252, 1);
+}
+
+.ListMail .right
+{
+  align-items: center;
+  
+}
+
+.ListMail .right .page-Number {
+  margin-right: 1rem;
+  font-size: 14px;
+}
+

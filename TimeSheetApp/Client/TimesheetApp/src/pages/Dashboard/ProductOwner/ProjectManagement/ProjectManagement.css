@@ -1,0 +1,15 @@
+.project-management
+{
+    width: 100%;
+}
+
+.project-management form
+{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media (max-width:413px) and (min-width:300px){
+    
+    
+}

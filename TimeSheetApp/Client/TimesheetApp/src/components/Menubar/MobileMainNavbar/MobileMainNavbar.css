@@ -1,0 +1,51 @@
+.mobile-main-navbar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-main-navbar .mobile-main-navbar_container
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-main-navbar .mobile-main-navbar_list-link
+{
+    top: 0;
+    left: 0;
+    width: 85%;
+    background: white;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.mobile-main-navbar .mobile-main-navbar_dark-bg
+{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.mobile-main-navbar .active .css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root
+{
+    background: #1976d2 !important;
+    color: white;
+}
+
+.mobile-main-navbar .active .css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root i
+{
+    color: white;
+}

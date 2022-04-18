@@ -1,0 +1,9 @@
+.project-list .project-item_box {
+    padding: 50px 150px;
+}
+
+@media (max-width: 1000px) and (min-width: 300px) {
+  .project-list .project-item_box {
+    padding: 0;
+  }
+}

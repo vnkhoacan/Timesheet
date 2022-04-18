@@ -1,0 +1,38 @@
+@import url(https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css);
+
+.hero-scrumboard {
+  width: 100%;
+  min-height: 100%;
+  background: #f6f7f9;
+  padding: 100px 0;
+}
+
+.hero-scrumboard .title {
+  font-size: 40px;
+  padding: 24px 0px;
+  color: #333;
+  font-weight: bold;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.p-16 {
+  padding: 1.6rem;
+}
+
+.hero-scrumboard_container {
+  display: flex;
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  .hero-scrumboard {
+    padding-top: 30px;
+  }
+
+  .hero-scrumboard_container {
+    display: block;
+  }
+}

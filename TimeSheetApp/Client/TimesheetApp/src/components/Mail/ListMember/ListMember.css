@@ -1,0 +1,15 @@
+.mail-box .mail-box_list-member
+{
+    position: absolute;
+    top: 25px;
+    left: 80px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.07);
+}
+
+.mail-box .mail-box_list-member .mail-box_list-member_name
+{
+    white-space: nowrap;
+    margin-left: 10px;
+}

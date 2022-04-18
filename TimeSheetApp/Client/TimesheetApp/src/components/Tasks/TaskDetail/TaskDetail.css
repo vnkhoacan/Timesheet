@@ -1,0 +1,103 @@
+.task-detail {
+  width: 800px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+.task-detail-container {
+  background: #fff;
+  width: 100%;
+}
+
+.task-detail-header {
+  background: rgb(37, 47, 62);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding: 0 20px;
+}
+
+.task-detail-header .task-detail-header-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.task-detail-header .task-detail-header-icon i {
+  padding: 0 12px;
+}
+
+.task-detail-close {
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.8;
+  margin-left: auto;
+}
+
+.task-detail-close:hover {
+  opacity: 1;
+}
+
+.task-detail-body {
+  padding: 30px;
+}
+
+.task-detail-body .row .col-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+  font-size: 23px;
+
+  padding: 0px 20px;
+}
+
+.task-detail-body-body .modal-input-title {
+  border: 1px solid #ccc;
+  width: 95%;
+  height: 35px;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+.task-detail-body .modal-input-description {
+  border: 1px solid #ccc;
+  width: 95%;
+  height: 100px;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+.task-detail-end {
+  padding: 30px;
+}
+
+.task-detail-footer {
+  padding: 30px;
+}
+
+.task-detail-scroll {
+  position: relative;
+  max-height: 700px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  .task-detail {
+    width: 350px;
+    border-radius: 0 !important;  
+  }
+
+  .task-detail-scroll {
+    max-height: 500px;
+  }
+}

@@ -1,0 +1,60 @@
+.ListMail .sub-ListMail {
+  overflow: hidden;
+  height: 93%;
+  overflow-y: auto;
+}
+
+.ListMail .sub-ListMail .public-DraftStyleDefault-ltr
+{
+  margin: 0;
+}
+
+.ListMail .sub-ListMail .sub-sub-ListMail {
+  display: flex;
+  width: 100%;
+}
+
+.ListMail .sub-ListMail .sub-sub-ListMail .email {
+  width: 100%;
+  padding: 1rem;
+}
+
+.sub-Email .name .right .sub-sub-Name {
+  color: #333;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.sub-Email .name .left {
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.sub-Email .title .right {
+  width: 85%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+}
+
+.sub-Email .content {
+  width: 100%;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 2;
+  -moz-line-clamp: 2;
+  -ms-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  color: #64748b;
+  font-size: 15px;
+}
+
+.sub-ListMail .sub-sub-ListMail:hover {
+  background-color: rgba(51, 51, 51, 0.034);
+}

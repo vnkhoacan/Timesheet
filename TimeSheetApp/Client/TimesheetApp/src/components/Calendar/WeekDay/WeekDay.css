@@ -1,0 +1,14 @@
+.week-day {
+  width: calc(100% / 7);
+  height: 100%;
+}
+
+.week-day .week-day_shift-box {
+  width: 100%;
+  height: 33%;
+}
+
+.week-day .week-day_shift {
+    padding: 5px 10px;
+    color: #64748b;
+}

@@ -1,0 +1,64 @@
+.filter {
+  width: 100%;
+}
+
+.filter .filter-box {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.filter .filter-box .filter-box_search {
+  display: flex;
+}
+
+.filter .filter-box .filter-box_search input {
+  /* width: 70%; */
+  /* margin-right: auto; */
+}
+
+.filter .filter-box .filter-box_search select {
+  width: 25%;
+}
+
+.filter .filter_group {
+  width: 50%;
+}
+
+.filter .filter_label {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+/* .filter .filter_date {
+  display: flex;
+} */
+
+@media (max-width: 500px) and (min-width: 300px) {
+  .filter .filter-box {
+    width: 100%;
+  }
+
+  .filter .filter-box .filter-box_search {
+    display: flex;
+  }
+
+  .filter .filter-box .filter-box_search input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .filter .filter-box .filter-box_search select {
+    width: 100%;
+  }
+
+  /* .filter .filter_date {
+    display: block;
+  } */
+
+  .filter .filter_group {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

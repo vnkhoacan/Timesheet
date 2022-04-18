@@ -1,0 +1,7 @@
+{
+  "name": "Timesheet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

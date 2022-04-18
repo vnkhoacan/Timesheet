@@ -1,0 +1,12 @@
+.calendar-task
+{
+    padding: 5px 10px;
+}
+
+.calendar-task .calendar-task_content
+{
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 13px;
+    color: white;
+}

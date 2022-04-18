@@ -1,0 +1,138 @@
+.task-list {
+  width: 100%;
+  height: 100%;
+}
+
+.task-list .task-list_list {
+  border-right: 1px solid #e2e8f0;
+}
+
+.task-list .header {
+  cursor: text;
+  padding: 25px 30px;
+}
+
+.task-list .header-icon {
+  float: right;
+}
+
+.task-list .task-list_header_title {
+  font-size: 32px !important;
+  font-weight: 800 !important;
+  color: #1e293b;
+}
+.task-list .task-list_header_sub {
+  font-size: 14px;
+  color: #64748b;
+}
+.task-list .header-icon i {
+  padding: 0 5px;
+  font-size: 24px;
+  color: #64748b;
+  cursor: pointer;
+}
+.task-list .time span {
+  font-size: 14px;
+  color: #64748b;
+  padding-left: 10px;
+}
+
+.task-list .check-icon {
+  color: #94a3b8;
+}
+
+.task-list .title {
+  font-size: 17px;
+  color: #1e293b;
+  font-weight: 500;
+  padding: 12px 0;
+}
+
+.task-list .css-1rki8sg-MuiListItem-root {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.task-list .task-list_task_name {
+  font-size: 15px;
+  color: #1e293b;
+}
+
+.task-list .css-g0jugy-MuiCollapse-root-MuiTreeItem-group {
+  margin: 0 !important;
+}
+
+.task-list .check-icon_on {
+  color: #4f46e5;
+}
+
+.task-list .arrow-icon {
+  font-size: 14px;
+  color: #e41212;
+}
+
+.task-list .arrow-icon_on {
+  color: #16a34a;
+}
+
+.task-list .css-h4y409-MuiList-root:hover {
+  background: #f1f2f6 !important;
+}
+
+.task-list .css-1g86id8-MuiTreeItem-content:hover {
+  background: #f1f2f6 !important;
+}
+
+.task-list .Mui-selected
+{
+  background: #f1f2f6 !important;
+}
+
+.task-list .Mui-selected .css-h4y409-MuiList-root {
+  background: #f1f2f6 !important;
+}
+
+.task-list .Mui-selected .css-1g86id8-MuiTreeItem-content {
+  background: #f1f2f6 !important;
+}
+
+.task-list .task-detail {
+  position: relative;
+  display: block;
+  transform: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: none;
+  border-radius: 0;
+  height: 100%;
+}
+
+.task-list .task-detail .task-detail-container {
+  height: 100%;
+}
+
+.task-list .task-detail .task-detail-container .task-detail-scroll {
+  max-height: 100%;
+}
+
+.task-list .task-list_list_on {
+  width: 60%;
+}
+
+.task-list .task-list_task-detail_on {
+  width: 40%;
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  .task-list .task-detail {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+  }
+}

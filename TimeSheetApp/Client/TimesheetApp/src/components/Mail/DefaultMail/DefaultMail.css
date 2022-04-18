@@ -1,0 +1,27 @@
+.noSelectMail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 245, 249);
+}
+
+.sub-noSelectMail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noSelectMail .icon {
+    width: 6rem!important;
+    height: 6rem!important;
+    color: rgba(78, 100, 136, 0.5);
+    fill: currentColor;
+}
+
+.noSelectMail .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(78, 100, 136, 0.5);
+}

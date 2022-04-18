@@ -1,0 +1,24 @@
+.css-ghsjzk-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled)::before {
+  border: none !important;
+}
+
+.css-ghsjzk-MuiInputBase-root-MuiInput-root::before {
+  border: none !important;
+  transition: none !important;
+}
+
+.css-bckmzb-MuiAutocomplete-popper {
+  border: none !important;
+}
+
+.MuiAutocomplete-popper {
+  border: none !important;
+}
+
+.MuiInput-underline.Mui-disabled:before {
+  border: none !important;
+}
+
+.MuiAutocomplete-root fieldset:hover {
+  border-color: none !important;
+}

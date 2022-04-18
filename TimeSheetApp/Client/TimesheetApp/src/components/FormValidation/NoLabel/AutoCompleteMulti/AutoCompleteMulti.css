@@ -1,0 +1,9 @@
+.label-autocomplete
+  .css-ghsjzk-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled)::before {
+  border: none !important;
+}
+
+.label-autocomplete .css-ghsjzk-MuiInputBase-root-MuiInput-root::before {
+  border: none !important;
+  transition: none !important;
+}

@@ -1,0 +1,17 @@
+.list-friend {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.list-friend .list-friend_header {
+  height: 10%;
+  display: flex;
+}
+
+.list-friend .list-friend_body {
+  height: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+}

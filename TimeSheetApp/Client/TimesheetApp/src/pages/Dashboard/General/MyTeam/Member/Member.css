@@ -1,0 +1,11 @@
+.my-team .my-team_member {
+  width: 300px;
+  margin-right: 10px;
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  .my-team .my-team_member {
+    width: 100%;
+    margin-right: 0;
+  }
+}

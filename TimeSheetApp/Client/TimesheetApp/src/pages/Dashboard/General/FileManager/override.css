@@ -1,0 +1,63 @@
+.file-manager {
+  width: 100%;
+  height: 100%;
+}
+
+.file-manager .story-wrapper {
+  height: 100%;
+}
+
+.css-1vazdj7-MuiPaper-root-MuiAppBar-root,
+.css-hip9hq-MuiPaper-root-MuiAppBar-root,
+.css-191lty2 {
+  background-color: #1976d2 !important;
+  color: white !important;
+}
+
+.css-1vazdj7-MuiPaper-root-MuiAppBar-root {
+  color: #fff !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  width: 100% !important;
+  padding: 10px 8px !important;
+  display: block !important;
+}
+
+.css-1pz7awu-MuiButtonBase-root-MuiIconButton-root,
+.css-1f5y6oa-MuiButtonBase-root-MuiIconButton-root,
+.css-1l1167e {
+  padding: 12px !important;
+}
+
+.css-1dmadst {
+  padding: 12px 0 12px 12px !important;
+}
+
+.css-yz9k0d-MuiInputBase-input {
+  color: white !important;
+  padding: 8px 8px 8px 50px !important;
+}
+
+.css-ancrnh-MuiButtonBase-root-MuiIconButton-root {
+  padding: 12px !important;
+}
+
+.css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root,
+.css-e0yuwi {
+  width: 100% !important;
+  padding: 8px 16px !important;
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  .file-manager .chonky-toolbarRight {
+    width: 100%;
+    display: flex !important;
+    padding: 15px 0;
+    justify-content: space-between !important;
+  }
+
+  .file-manager .chonky-toolbarRight .chonky-baseButton {
+    padding: 0;
+  }
+}
